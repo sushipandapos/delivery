@@ -11,6 +11,11 @@ import { TabsPage } from '../pages/tabs/tabs';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { LoginPage } from '../pages/login/login';
+import { SettingsPage } from '../pages/settings/settings';
+import { ActiveOrdersPage } from '../pages/active-orders/active-orders';
+import { OrdersPage } from '../pages/orders/orders';
+import { MapPage } from '../pages/map/map';
+import { OrdersHistoryPage } from '../pages/orders-history/orders-history';
 
 @NgModule({
   declarations: [
@@ -19,7 +24,12 @@ import { LoginPage } from '../pages/login/login';
     ContactPage,
     HomePage,
     TabsPage,
-    LoginPage
+    LoginPage,
+    SettingsPage,
+    ActiveOrdersPage,
+    OrdersPage,
+    MapPage,
+    OrdersHistoryPage
   ],
   imports: [
     BrowserModule,
@@ -32,7 +42,12 @@ import { LoginPage } from '../pages/login/login';
     ContactPage,
     HomePage,
     TabsPage,
-    LoginPage
+    LoginPage,
+    SettingsPage,
+    ActiveOrdersPage,
+    OrdersPage,
+    MapPage,
+    OrdersHistoryPage
   ],
   providers: [
     StatusBar,
